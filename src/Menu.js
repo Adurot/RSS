@@ -13,7 +13,7 @@ h3.className = "title";
 h3.style = "background-color: blue;";
 h3.style.width = "400px";
 h3.style.height = "100px";
-h3.innerHTML= "Have you ever test wondered if you could ever get too many delicious almonds?  Well, now you can find out at Traxler's Almond Emporium!";
+h3.innerHTML= "Enjoy a delicious almond butter sandwhich!";
 document.getElementById("menu").appendChild(h3);  
 
 }

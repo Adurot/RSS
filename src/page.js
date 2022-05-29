@@ -15,7 +15,7 @@ div.className = "title";
 div.style = "background-color: blue;";
 div.style.width = "900px";
 div.style.height = "200px";
-div.innerHTML= "";
+div.innerHTML= "Note: Practice with Modules.  Might style/finish later on.";
 document.body.appendChild(div);  
 
 let h1 = document.createElement("h1");
@@ -51,9 +51,9 @@ document.getElementById("promo").appendChild(h3);
 let div3 = document.createElement("div");
 div3.id = "div3_id";
 div3.className = "div3_class";
-div3.style = "background-color: red;";
-div3.style.width = "200px";
-div3.style.height = "200px";
+div3.style = "background-color: brown";
+div3.style.width = "600px";
+div3.style.height = "400px";
 div3.innerHTML= "Almond Butter Sandwhichesjfkl;wakfle";
 document.body.appendChild(div3);  
 }

@@ -1,5 +1,7 @@
 import { pageLoad, test1 } from './page.js'
 import { menu } from './Menu.js'
+import {contact} from './Contact.js'
+import {hours} from './Hours.js'
 
 //console.log('testing12');
 
@@ -7,8 +9,8 @@ import { menu } from './Menu.js'
 pageLoad();
 
 let btn = document.createElement("button");
-btn.innerHTML = "Click Me";
-document.body.appendChild(btn);
+btn.innerHTML = "Menu";
+document.getElementById("promo").appendChild(btn);
 btn.onclick = function () {
     
         clearBox("div3_id");
@@ -17,10 +19,19 @@ btn.onclick = function () {
 };
 
 let mbtn = document.createElement("button");
-mbtn.innerHTML = "Click Me";
-document.body.appendChild(mbtn);
+mbtn.innerHTML = "Contact";
+document.getElementById("promo").appendChild(mbtn);
 mbtn.onclick = function () {
     clearBox("div3_id");
+    contact();
+};
+
+let cbtn = document.createElement("button");
+cbtn.innerHTML = "Hours";
+document.getElementById("promo").appendChild(cbtn);
+cbtn.onclick = function () {
+    clearBox("div3_id");
+    hours();
 };
 
 
